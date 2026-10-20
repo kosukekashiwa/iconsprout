@@ -1,0 +1,42 @@
+{
+  "name": "iconsprout",
+  "version": "0.0.0",
+  "description": "Deterministic SVG avatars & identicons from any seed. Zero dependencies — Web, React Native, Node, Edge.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosukekashiwa/iconsprout.git",
+    "directory": "packages/core"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "identicon",
+    "avatar",
+    "svg",
+    "generator",
+    "react-native"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "node --experimental-strip-types --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc -p .",
+    "preview": "node --experimental-strip-types scripts/preview.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}

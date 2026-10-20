@@ -1,0 +1,46 @@
+{
+  "name": "@iconsprout/react-native",
+  "version": "0.0.0",
+  "description": "React Native / Expo component for iconsprout (react-native-svg).",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosukekashiwa/iconsprout.git",
+    "directory": "packages/react-native"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./dist/index.js",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -p .",
+    "test": "echo \"no tests\""
+  },
+  "dependencies": {
+    "iconsprout": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.74",
+    "react-native-svg": ">=15"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.81.0",
+    "react-native-svg": "^15.12.0"
+  }
+}
