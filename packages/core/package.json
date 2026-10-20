@@ -1,6 +1,6 @@
 {
   "name": "iconsprout",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Deterministic SVG avatars & identicons from any seed. Zero dependencies — Web, React Native, Node, Edge.",
   "license": "MIT",
   "type": "module",
