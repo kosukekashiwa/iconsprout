@@ -1,8 +1,20 @@
 // README 用のプレビューシートを生成: pnpm preview → preview.svg
 import { writeFileSync } from "node:fs";
-import { createAvatar, mosaic, monster, pixel, pixelCharacter, robot, shapes, type Style } from "../src/index.ts";
+import {
+  constellation,
+  createAvatar,
+  kamon,
+  mosaic,
+  monster,
+  pixel,
+  pixelCharacter,
+  robot,
+  shapes,
+  sprout,
+  type Style,
+} from "../src/index.ts";
 
-const styles: Style[] = [pixel, shapes, mosaic, monster, robot, pixelCharacter];
+const styles: Style[] = [pixel, shapes, mosaic, constellation, kamon, monster, robot, pixelCharacter, sprout];
 const seeds = ["kosuke", "octocat", "alice", "bob", "mika", "taro"];
 const W = 150 + seeds.length * 76, H = 20 + styles.length * 80;
 
