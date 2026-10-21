@@ -8,3 +8,6 @@ export { PALETTES } from "./palettes.ts";
 
 export { pixel, shapes, mosaic } from "./styles/geometric.ts";
 export { monster, robot, pixelCharacter } from "./styles/illustration.ts";
+export { constellation } from "./styles/constellation.ts";
+export { kamon } from "./styles/kamon.ts";
+export { sprout } from "./styles/sprout.ts";

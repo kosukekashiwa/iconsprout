@@ -1,19 +1,22 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import {
+  constellation,
   createAvatar,
   defineStyle,
   h,
+  kamon,
   mosaic,
   monster,
   pixel,
   pixelCharacter,
   robot,
   shapes,
+  sprout,
   toSvgString,
 } from "../src/index.ts";
 
-const STYLES = [pixel, shapes, mosaic, monster, robot, pixelCharacter];
+const STYLES = [pixel, shapes, mosaic, constellation, kamon, monster, robot, pixelCharacter, sprout];
 const SEEDS = Array.from({ length: 30 }, (_, i) => `user-${i}`);
 
 for (const style of STYLES) {

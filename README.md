@@ -44,9 +44,12 @@ import { IconSprout, pixel } from "@iconsprout/react"; // or "@iconsprout/react-
 | `pixel` | GitHub-style 5×5 mirrored grid |
 | `shapes` | Bauhaus-like circles and squares |
 | `mosaic` | 4×4 triangle tiles |
+| `constellation` | Stars connected on a night sky |
+| `kamon` | Japanese family-crest style with rotational symmetry |
 | `monster` | Body, eyes, horns and mouth parts |
 | `robot` | Head, eyes (LED / lens / visor), grill |
 | `pixelCharacter` | 8×8 pixel-art character |
+| `sprout` | Potted sprout — leaves, buds and flowers |
 
 ## Options
 
